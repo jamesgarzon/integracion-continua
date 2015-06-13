@@ -1,0 +1,35 @@
+{
+  "name": "integracion-continua",
+  "description": "The best module ever.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jamesgarzon92@gmail.com/integracion-continua",
+  "bugs": "https://github.com/jamesgarzon92@gmail.com/integracion-continua/issues",
+  "license": "MIT",
+  "main": "lib/integracion-continua.js",
+  "author": {
+    "name": "James Garzon",
+    "email": "jamesgarzon92@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesgarzon92@gmail.com/integracion-continua"
+  },
+  "keywords":[],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jscs": "^1.1.2",
+    "gulp-jshint": "^1.8.4",
+    "gulp-mocha": "^1.1.0",
+    "gulp-istanbul": "^0.5.0",
+    "coveralls": "^2.11.1",
+    "should": "^4.0.4",
+    "jshint-stylish": "^0.4.0",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-plumber": "^0.6.5"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  }
+}
