@@ -5,7 +5,7 @@ var assert = require('should');
 
 describe('integracionContinua', function () {
 
-  it('should be awesome', function () {
+  it('should be awesome v1', function () {
     integracionContinua().should.equal('awesome');
   });
 
